@@ -1,0 +1,6 @@
+./ERR572556__fullgenes__gene__results.txt
+./ERR572690__fullgenes__gene__results.txt
+./ERR572647__fullgenes__gene__results.txt
+./ERR572761__fullgenes__gene__results.txt
+./ERR572546__fullgenes__gene__results.txt
+./ERR572611__fullgenes__gene__results.txt
