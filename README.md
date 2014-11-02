@@ -1,19 +1,19 @@
 ## workflow:
 
-1. Scanning viral factor of vibrio cholera 
+ 1. Scanning viral factor of vibrio cholera 
 
-```
-$ srst2 --input_pe SRR******_1.fastq SRR******_2.fastq --log --gene_db Vibrio_VF_clustered.fasta --output SRR******
-```
+ ```
+ $ srst2 --input_pe SRR******_1.fastq SRR******_2.fastq --log --gene_db Vibrio_VF_clustered.fasta --output SRR******
+ ```
 
-2. Gene scanning output accession
+ 2. Gene scanning output accession
 
-```
-$ find ./ -size -350c | grep fullgenes | sed "s/\.\/\|__fullgenes__gene__results.txt//g" > only_tcpA_genome_accession.txt
-```
+ ```
+ $ find ./ -size -1000c | grep fullgenes | sed "s/\.\/\|__fullgenes__gene__results.txt//g" > only_tcpA_genome_accession.txt
+ ```
 
-3. Get MLST type of only tcpA genome
+ 3. Get MLST type of only tcpA genome
 
-```
-$ srst2 --input_pe ...
-```
+ ```
+ $ srst2 --input_pe ...
+ ```
